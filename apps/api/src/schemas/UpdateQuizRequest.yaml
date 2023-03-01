@@ -1,0 +1,78 @@
+components:
+    schemas:
+        UpdateQuizRequest:
+            type: object
+            required:
+                - title
+                - description
+                - username
+                - email
+                - questions
+            properties:
+                title:
+                    type: string
+                    example: Swagger API Quiz
+                description:
+                    type: string
+                    example: Quiz related to Swagger API
+                adminID:
+                    type: string
+                    example: 63f8c6ffe0dd6c132a0e9780
+                questions:
+                    type: array
+                    items:
+                        type: object
+                        properties:
+                            title:
+                                type: string
+                                example: 'The G.C.D. of 1.08, 0.36 and 0.9 is:'
+                            options:
+                                type: array
+                                items:
+                                    type: object
+                                    properties:
+                                        title:
+                                            type: string
+                                            example: '11.1203234'
+                                        isAnswer:
+                                            type: boolean
+                                            example: false
+                                        id:
+                                            type: string
+                                            example: 63f90287a2f4adb6b6b9fe62
+                            isMultiple:
+                                type: boolean
+                                example: false
+                            points:
+                                type: integer
+                                format: int32
+                                example: 5
+                            createdAt:
+                                type: string
+                                format: date-time
+                                example: 2023-02-24T18:31:35.407Z
+                            updatedAt:
+                                type: string
+                                format: date-time
+                                example: 2023-02-24T18:31:35.407Z
+                            id:
+                                type: string
+                                example: 63f90287a2f4adb6b6b9fe61
+                urlId:
+                    type: string
+                    example: asLeCYQtZb_9QKxP7_IpNHB1
+                createdAt:
+                    type: string
+                    format: date-time
+                    example: 2023-02-24T18:31:35.408Z
+                updatedAt:
+                    type: string
+                    format: date-time
+                    example: 2023-02-24T18:31:35.408Z
+                totalPoints:
+                    type: integer
+                    format: int32
+                    example: 35
+                id:
+                    type: string
+                    example: 63f90287a2f4adb6b6b9fe60

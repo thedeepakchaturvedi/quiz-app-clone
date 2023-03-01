@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,100;1,400&family=Open+Sans:wght@300;400;600&family=Quicksand:wght@700&display=swap');
+/* #root {
+    width: 55vw;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid red;
+} */
+:root {
+    --background-color: #b7e5ff;
+}
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-header {
+    background-color: var(--background-color);
+}
+.totalPoints {
+    text-align: left;
+    margin: 0 0 1% 1%;
+}
+.quizTitle {
+    color: black;
+    margin: 0;
+    padding: 1% 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+}
+.userInfo {
+    /* width: 50vw; */
+    /* border: 1px solid blue; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+.quizContainer {
+    background-color: #d8dfe2;
+    /* background-color: var(--background-color); */
+    box-shadow: 1px 1px 5px 1px #022437;
+    width: 50vw;
+    /* height: 80vh; */
+    text-align: center;
+    margin: 0 auto;
+    padding: 2% 3%;
+}
+.userCredentials {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0;
+}
+.quizDescription {
+    text-align: left;
+}
+.que {
+    text-align: left;
+    font-size: 0.8rem;
+    margin: 0 0 1% 0;
+    /* border: 1px solid red; */
+}
+.question {
+    padding: 0;
+}
+#question {
+    color: black;
+    min-height: 15vh;
+    margin: 2%;
+    padding: 0;
+    text-align: left;
+    font-size: 1.2rem;
+}
+.questionContainer {
+    box-shadow: 1px 1px 4px 1px #022437;
+}
+.questionPoints {
+    text-align: right;
+    margin: 3% 0;
+}
+.optionsContainer {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    align-items: start;
+    /* background-color: #ecc250; */
+    padding: 2%;
+}
+.options {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* column-gap:10%; */
+    row-gap: 10px;
+    align-items: start;
+    text-align: left;
+}
+.optionRow1 {
+    margin-left: 30%;
+    text-align: start;
+}
+.optionRow2 {
+    text-align: start;
+}
+.navigateButtons {
+    margin: 2% auto 2% auto;
+    display: flex;
+    justify-content: center;
+}
+.submitButton {
+    width: 40%;
+}
+.progressBar {
+    display: flex;
+    justify-content: center;
+}
+.bar {
+    width: 50%;
+    min-height: 25px;
+    /* border: 1px solid red; */
+}
+.progress-bar {
+    background-color: rgb(12, 147, 12);
+}

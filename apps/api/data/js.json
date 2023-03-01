@@ -1,0 +1,166 @@
+{
+    "title": "Javascript Quiz",
+    "description": "JavaScript MCQ ",
+    "username": "varun",
+    "email": "varun@contentstack.com",
+    "urlId": "0LfGOBlxrALHo6lB36Fs2",
+    "questions": [
+        {
+            "title": "Which of the following keywords is used to define a variable in Javascript?:",
+            "points": 5,
+            "isMultiple": true,
+            "options": [
+                {
+                    "title": "var",
+                    "isAnswer": true
+                },
+                {
+                    "title": "let",
+                    "isAnswer": true
+                },
+                {
+                    "title": "none of the above",
+                    "isAnswer": false
+                }
+            ]
+        },
+        {
+            "title": "Which of the following methods is used to access HTML elements using Javascript?",
+            "points": 5,
+            "options": [
+                {
+                    "title": "getElementById()",
+                    "isAnswer": true
+                },
+                {
+                    "title": "getElementByDom(",
+                    "isAnswer": false
+                },
+                {
+                    "title": "getElementByClassname()",
+                    "isAnswer": true
+                },
+                {
+                    "title": "none of the above",
+                    "isAnswer": false
+                }
+            ],
+            "isMultiple": true
+        },
+        {
+            "title": "252 can be expressed as a product of primes as:",
+            "points": 5,
+            "options": [
+                {
+                    "title": "2 x 2 x 3 x 3 x 7",
+                    "isAnswer": true
+                },
+                {
+                    "title": "2 x 2 x 2 x 3 x 7",
+                    "isAnswer": false
+                },
+                {
+                    "title": "3 x 3 x 3 x 3 x 7",
+                    "isAnswer": false
+                },
+                {
+                    "title": "2 x 3 x 3 x 3 x 7",
+                    "isAnswer": false
+                }
+            ],
+            "isMultiple": false
+        },
+        {
+            "title": "Upon encountering empty statements, what does the Javascript Interpreter do?",
+            "points": 5,
+            "options": [
+                {
+                    "title": "Throws an error",
+                    "isAnswer": false
+                },
+                {
+                    "title": "Ignores the statement",
+                    "isAnswer": true
+                },
+                {
+                    "title": "Gives a warning",
+                    "isAnswer": false
+                },
+                {
+                    "title": "none of the above",
+                    "isAnswer": false
+                }
+            ],
+            "isMultiple": false
+        },
+        {
+            "title": "Which of the following methods can be used to display data in some form using Javascript?",
+            "points": 5,
+            "options": [
+                {
+                    "title": "document.write()",
+                    "isAnswer": false
+                },
+                {
+                    "title": "console.log()",
+                    "isAnswer": false
+                },
+                {
+                    "title": "window.alert()",
+                    "isAnswer": false
+                },
+                {
+                    "title": "all of the above",
+                    "isAnswer": true
+                }
+            ],
+            "isMultiple": false
+        },
+        {
+            "title": "How can a datatype be declared to be a constant type?",
+            "points": 10,
+            "options": [
+                {
+                    "title": "let",
+                    "isAnswer": false
+                },
+                {
+                    "title": "final",
+                    "isAnswer": false
+                },
+                {
+                    "title": "var",
+                    "isAnswer": false
+                },
+                {
+                    "title": "const",
+                    "isAnswer": true
+                }
+            ],
+            "isMultiple": false
+        },
+        {
+            "title": "What keyword is used to check whether a given property is valid or not?",
+            "points": 10,
+            "options": [
+                {
+                    "title": "in",
+                    "isAnswer": true
+                },
+                {
+                    "title": "is in",
+                    "isAnswer": false
+                },
+                {
+                    "title": "exist",
+                    "isAnswer": false
+                },
+                {
+                    "title": "lies",
+                    "isAnswer": false
+                }
+            ],
+            "isMultiple": false
+        }
+    ]
+}

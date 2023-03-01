@@ -1,0 +1,38 @@
+components:
+    schemas:
+        GetAllReportsResponse:
+            type: object
+            properties:
+                message:
+                    type: string
+                    example: Fetched quiz reports Successfully!
+                data:
+                    type: array
+                    items:
+                        type: object
+                        properties:
+                            quizID:
+                                type: string
+                                example: 63f8c6ffe0dd6c132a0e9782
+                            quizTaken:
+                                type: integer
+                                format: int32
+                                example: 3
+                            avgScore:
+                                type: number
+                                example: 23.333333333333332
+                            sumScore:
+                                type: integer
+                                format: int32
+                                example: 105
+                            totalScore:
+                                type: integer
+                                format: int32
+                                example: 35
+                            createdAt:
+                                type: string
+                                format: date-time
+                                example: 2023-02-24T14:17:35.894Z
+                            id:
+                                type: string
+                                example: 63f8c6ff63156764ebb0bb7e

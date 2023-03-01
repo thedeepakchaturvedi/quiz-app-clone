@@ -1,0 +1,8 @@
+components:
+    schemas:
+        BadRequestResponse:
+            type: object
+            properties:
+                message:
+                    type: string
+                    example: Error Message.

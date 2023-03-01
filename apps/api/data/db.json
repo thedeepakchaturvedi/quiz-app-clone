@@ -1,0 +1,182 @@
+{
+    "title": "Database Quiz",
+    "description": "A database is an organized collection of data, general stores, and accessed electronically from a computer system.",
+    "username": "varun",
+    "email": "varun@contentstack.com",
+    "urlId": "jegxcAm4SuqzqFRUm6b01",
+    "questions": [
+        {
+            "title": "Which of the following is the full form of DDL?",
+            "points": 5,
+            "isMultiple": false,
+            "options": [
+                {
+                    "title": "data definition language",
+                    "isAnswer": true
+                },
+                {
+                    "title": "data derivation language",
+                    "isAnswer": false
+                },
+                {
+                    "title": "dynamic data language",
+                    "isAnswer": false
+                },
+                {
+                    "title": "detailed data language",
+                    "isAnswer": false
+                }
+            ]
+        },
+        {
+            "title": "Which of the following is the property of transaction that protects data from system failure?",
+            "points": 5,
+            "options": [
+                {
+                    "title": "Atomicity",
+                    "isAnswer": false
+                },
+                {
+                    "title": "Isolation",
+                    "isAnswer": false
+                },
+                {
+                    "title": "Durability",
+                    "isAnswer": true
+                },
+                {
+                    "title": "Consistency",
+                    "isAnswer": false
+                }
+            ],
+            "isMultiple": false
+        },
+        {
+            "title": "Which normalization form is based on the transitive dependency",
+            "points": 5,
+            "options": [
+                {
+                    "title": "1NF",
+                    "isAnswer": false
+                },
+                {
+                    "title": "2NF",
+                    "isAnswer": false
+                },
+                {
+                    "title": "3NF",
+                    "isAnswer": true
+                },
+                {
+                    "title": "BCNF",
+                    "isAnswer": false
+                }
+            ],
+            "isMultiple": false
+        },
+        {
+            "title": "Which of the following is a command of  DDL?",
+            "points": 5,
+            "options": [
+                {
+                    "title": "Alter",
+                    "isAnswer": false
+                },
+                {
+                    "title": "Delete",
+                    "isAnswer": true
+                },
+                {
+                    "title": "Create",
+                    "isAnswer": true
+                },
+                {
+                    "title": "Update",
+                    "isAnswer": false
+                }
+            ],
+            "isMultiple": true
+        },
+        {
+            "title": "During transaction before commit which of the following statement is done automatically in case of shutdown?",
+            "points": 5,
+            "options": [
+                {
+                    "title": "Flashback",
+                    "isAnswer": false
+                },
+                {
+                    "title": "View",
+                    "isAnswer": false
+                },
+                {
+                    "title": "Commit",
+                    "isAnswer": false
+                },
+                {
+                    "title": "Rollback",
+                    "isAnswer": true
+                }
+            ],
+            "isMultiple": false
+        },
+        {
+            "title": "Which of the following allows to uniquely identify a tuple?",
+            "points": 10,
+            "options": [
+                {
+                    "title": "Schema",
+                    "isAnswer": false
+                },
+                {
+                    "title": "Attribute",
+                    "isAnswer": false
+                },
+                {
+                    "title": "Super Key",
+                    "isAnswer": true
+                },
+                {
+                    "title": "Candidate Key",
+                    "isAnswer": true
+                },
+                {
+                    "title": "Domain",
+                    "isAnswer": false
+                },
+                {
+                    "title": "Entity",
+                    "isAnswer": false
+                }
+            ],
+            "isMultiple": true
+        },
+        {
+            "title": "Which of the following is not a SQL command?",
+            "points": 10,
+            "options": [
+                {
+                    "title": "DELETE",
+                    "isAnswer": true
+                },
+                {
+                    "title": "ORDER BY",
+                    "isAnswer": false
+                },
+                {
+                    "title": "SELECT",
+                    "isAnswer": false
+                },
+                {
+                    "title": "WHERE",
+                    "isAnswer": false
+                },
+                {
+                    "title": "MERGE",
+                    "isAnswer": false
+                }
+            ],
+            "isMultiple": false
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+components:
+    schemas:
+        GetAllQuizResponse:
+            type: object
+            properties:
+                message:
+                    type: string
+                    example: Fetched quizzes Successfully!
+                data:
+                    type: array
+                    items:
+                        type: object
+                        properties:
+                            title:
+                                type: string
+                                example: Database Quiz
+                            description:
+                                type: string
+                                example:
+                                    A database is an organized collection of data, general stores, and
+                                    accessed electronically from a computer system.
+                            adminID:
+                                type: string
+                                example: 63f8c6ffe0dd6c132a0e9780
+                            questions:
+                                type: array
+                                items:
+                                    type: object
+                                    properties:
+                                        title:
+                                            type: string
+                                            example: Which of the following is the full form of DDL?
+                                        options:
+                                            type: array
+                                            items:
+                                                type: object
+                                                properties:
+                                                    title:
+                                                        type: string
+                                                        example: data definition language
+                                                    id:
+                                                        type: string
+                                                        example: 63f90ede0fc991d66d7f3449
+                                                    isSelected:
+                                                        type: boolean
+                                                        example: false
+                                        isMultiple:
+                                            type: boolean
+                                            example: false
+                                        points:
+                                            type: integer
+                                            format: int32
+                                            example: 10
+                                        id:
+                                            type: string
+                                            example: 63f90ede0fc991d66d7f3448
+                            urlId:
+                                type: string
+                                example: jegxcAm4SuqzqFRUm6b01
+                            totalPoints:
+                                type: integer
+                                format: int32
+                                example: 50
+                            id:
+                                type: string
+                                example: 63f8c6ffe0dd6c132a0e97c8

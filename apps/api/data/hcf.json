@@ -1,0 +1,147 @@
+{
+    "title": "HCF and LCM",
+    "description": "HCF and LCM quiz",
+    "username": "varun",
+    "email": "varun@contentstack.com",
+    "urlId": "LeCYQtZb_9QKxP7_IpNHB",
+    "questions": [
+        {
+            "title": "The G.C.D. of 1.08, 0.36 and 0.9 is:",
+            "points": 5,
+            "isMultiple": false,
+            "options": [
+                {
+                    "title": "0.03",
+                    "isAnswer": false
+                },
+                {
+                    "title": "0.9",
+                    "isAnswer": false
+                },
+                {
+                    "title": "0.18",
+                    "isAnswer": true
+                },
+                {
+                    "title": "0.108",
+                    "isAnswer": false
+                }
+            ]
+        },
+        {
+            "title": "Find the lowest common multiple of 24,36 and 40.",
+            "points": 5,
+            "options": [
+                {
+                    "title": "120",
+                    "isAnswer": false
+                },
+                {
+                    "title": "240",
+                    "isAnswer": false
+                },
+                {
+                    "title": "360",
+                    "isAnswer": true
+                },
+                {
+                    "title": "480",
+                    "isAnswer": false
+                }
+            ],
+            "isMultiple": false
+        },
+        {
+            "title": "252 can be expressed as a product of primes as:",
+            "points": 5,
+            "options": [
+                {
+                    "title": "2 x 2 x 3 x 3 x 7",
+                    "isAnswer": true
+                },
+                {
+                    "title": "2 x 2 x 2 x 3 x 7",
+                    "isAnswer": false
+                },
+                {
+                    "title": "3 x 3 x 3 x 3 x 7",
+                    "isAnswer": false
+                },
+                {
+                    "title": "2 x 3 x 3 x 3 x 7",
+                    "isAnswer": false
+                }
+            ],
+            "isMultiple": false
+        },
+        {
+            "title": "Find the greatest number that will divide 43, 91 and 183 so as to leave the same remainder in each case.",
+            "points": 5,
+            "options": [
+                {
+                    "title": "4",
+                    "isAnswer": true
+                },
+                {
+                    "title": "7",
+                    "isAnswer": false
+                },
+                {
+                    "title": "9",
+                    "isAnswer": false
+                },
+                {
+                    "title": "13",
+                    "isAnswer": false
+                }
+            ],
+            "isMultiple": false
+        },
+        {
+            "title": "The H.C.F. of two numbers is 23 and the other two factors of their L.C.M. are 13 and 14. The larger of the two numbers is:",
+            "points": 5,
+            "options": [
+                {
+                    "title": "276",
+                    "isAnswer": false
+                },
+                {
+                    "title": "229",
+                    "isAnswer": false
+                },
+                {
+                    "title": "322",
+                    "isAnswer": true
+                },
+                {
+                    "title": "345",
+                    "isAnswer": false
+                }
+            ],
+            "isMultiple": false
+        },
+        {
+            "title": "Six bells commence tolling together and toll at intervals of 2, 4, 6, 8 10 and 12 seconds respectively. In 30 minutes, how many times do they toll together ?",
+            "points": 10,
+            "options": [
+                {
+                    "title": "4",
+                    "isAnswer": false
+                },
+                {
+                    "title": "10",
+                    "isAnswer": false
+                },
+                {
+                    "title": "15",
+                    "isAnswer": false
+                },
+                {
+                    "title": "16",
+                    "isAnswer": true
+                }
+            ],
+            "isMultiple": false
+        }
+    ]
+}

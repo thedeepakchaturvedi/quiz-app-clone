@@ -1,0 +1,71 @@
+.report-listing-heading h1 {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.report-quizflexcontainer {
+    background: white;
+    padding: 6px;
+    border-radius: 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+.report-user-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    height: 9vh;
+    border: 1px solid black;
+    background-color: rgb(180, 230, 243);
+}
+
+.report-user-name {
+    min-width: 45%;
+    font-weight: bold;
+}
+
+.report-createdAt {
+    min-width: 10%;
+    font-weight: bold;
+}
+
+.report-user-score {
+    min-width: 7%;
+    font-weight: bold;
+}
+
+.report-total-score {
+    min-width: 6%;
+    font-weight: bold;
+}
+
+.report-listing-quiz {
+    min-width: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.report-listing-heading {
+    text-align: center;
+}
+
+.report-quizzes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.report-quiz-detailes {
+    background-color: rgb(180, 230, 243);
+    margin: 50px 70px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}

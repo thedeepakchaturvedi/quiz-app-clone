@@ -1,0 +1,14 @@
+components:
+    schemas:
+        SubmitQuizResponse:
+            type: object
+            properties:
+                message:
+                    type: string
+                    example: Quiz Submitted Successfully!!
+                data:
+                    type: object
+                    properties:
+                        id:
+                            type: string
+                            example: 63fa774af5205e9be1642e2c

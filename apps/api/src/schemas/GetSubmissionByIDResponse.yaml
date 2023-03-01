@@ -1,0 +1,46 @@
+components:
+    schemas:
+        GetSubmissionByIDResponse:
+            type: object
+            properties:
+                message:
+                    type: string
+                    example: Fetched submission Successfully!
+                data:
+                    type: object
+                    properties:
+                        quizID:
+                            type: string
+                            example: 63f8c6ffe0dd6c132a0e9782
+                        quizTitle:
+                            type: string
+                            example: HCF and LCM
+                        userID:
+                            type: string
+                            example: 63fa774af5205e9be1642e0b
+                        username:
+                            type: string
+                            example: johndoe
+                        score:
+                            type: integer
+                            format: int32
+                            example: 0
+                        correctQuestions:
+                            type: integer
+                            format: int32
+                            example: 0
+                        totalScore:
+                            type: integer
+                            format: int32
+                            example: 35
+                        totalQuestions:
+                            type: integer
+                            format: int32
+                            example: 6
+                        createdAt:
+                            type: string
+                            format: date-time
+                            example: 2023-02-25T21:02:02.897Z
+                        id:
+                            type: string
+                            example: 63fa774af5205e9be1642e2c
