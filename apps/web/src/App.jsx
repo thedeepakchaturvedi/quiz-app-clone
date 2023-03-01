@@ -8,13 +8,14 @@ import {
 import { Loading } from 'ui';
 
 import AdminPageContainer from './admin/ListQuiz';
-import TakeQuiz from './user/TakeQuiz';
+// import TakeQuiz from './user/TakeQuiz';
 
 const QuizReport = lazy(() => import('./admin/QuizReport'));
 const EditQuiz = lazy(() => import('./admin/EditQuiz'));
 const TakeQuizPreview = lazy(() => import('./admin/PreviewQuiz'));
 const CreateQuiz = lazy(() => import('./admin/CreateQuiz'));
 const ShowSubmission = lazy(() => import('./user/ShowSubmission'));
+const TakeQuiz = lazy(() => import('./user/TakeQuiz'));
 
 function App() {
     return (
@@ -41,7 +42,8 @@ function App() {
                 <Route
                     path="/preview/:id"
                     element={
-                        <Suspense fallback={<Loading message="Loading..." />}>
+                        <Suspense fallback={<Loading message="Loahreya is talking
+2 people inding..." />}>
                             <TakeQuizPreview />
                         </Suspense>
                     }
@@ -62,7 +64,11 @@ function App() {
                         </Suspense>
                     }
                 />
-                <Route path="/take/:id" element={<TakeQuiz />} />
+                <Route path="/take/quiz/:id" element={
+                        <Suspense fallback={<Loading message="Loading..." />}>
+                            <TakeQuiz />
+                        </Suspense>
+                    } />
             </Routes>
         </Router>
     );
