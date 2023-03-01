@@ -57,7 +57,7 @@ function App() {
                     path="/edit/:id"
                     element={
                         <Suspense fallback={<Loading message="Loading..." />}>
-                            <EditQuiz />
+                            <TakeQuiz />
                         </Suspense>
                     }
                 />
