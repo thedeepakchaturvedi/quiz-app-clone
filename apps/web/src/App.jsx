@@ -21,6 +21,7 @@ function App() {
         <Router>
             <Routes>
                 <Route path="/" element={<AdminPageContainer />} />
+
                 <Route
                     path="/create/:id"
                     element={
@@ -57,11 +58,11 @@ function App() {
                     path="/edit/:id"
                     element={
                         <Suspense fallback={<Loading message="Loading..." />}>
-                            <TakeQuiz />
+                            <EditQuiz />
                         </Suspense>
                     }
                 />
-                <Route path="/:id" element={<TakeQuiz />} />
+                <Route path="/take/:id" element={<TakeQuiz />} />
             </Routes>
         </Router>
     );
