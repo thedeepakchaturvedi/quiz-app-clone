@@ -21,8 +21,6 @@ function App() {
         <Router>
             <Routes>
                 <Route path="/" element={<AdminPageContainer />} />
-                <Route path="/quiz" element={<AdminPageContainer />} />
-                <Route path="/quiz/:id" element={<TakeQuiz />} />
                 <Route
                     path="/create/:id"
                     element={
@@ -63,6 +61,7 @@ function App() {
                         </Suspense>
                     }
                 />
+                <Route path="/:id" element={<TakeQuiz />} />
             </Routes>
         </Router>
     );
