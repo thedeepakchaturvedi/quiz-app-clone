@@ -20,7 +20,7 @@ function App() {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<Navigate replace to="/quiz" />} />
+                <Route path="/" element={<AdminPageContainer />} />
                 <Route path="/quiz" element={<AdminPageContainer />} />
                 <Route path="/quiz/:id" element={<TakeQuiz />} />
                 <Route
